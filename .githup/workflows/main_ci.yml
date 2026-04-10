@@ -2,9 +2,9 @@ name: Python Project CI/CD
 
 on:
   push:
-    branches: [ main ]  # main бутагына код келгенде иштейт
+    branches: [ master ]  # main бутагына код келгенде иштейт
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   test-and-log-check:
